@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=f\ l\ a
+comment0.target=person(java.lang.String,\ java.lang.String,\ int)
+comment1.params=f
+comment1.target=void\ firstname(java.lang.String)
+comment2.params=l
+comment2.target=void\ setlastname(java.lang.String)
+comment3.params=a
+comment3.target=void\ setage(int)
+comment4.params=
+comment4.target=void\ display()
+numComments=5

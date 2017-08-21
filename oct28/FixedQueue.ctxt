@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=size
+comment0.target=FixedQueue(int)
+comment1.params=num
+comment1.target=void\ enqueue(int)
+comment2.params=
+comment2.target=int\ dequeue()
+numComments=3

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=a\ b
+comment0.target=diffrnt(int,\ int)
+comment1.params=
+comment1.target=void\ showa()
+comment2.params=
+comment2.target=void\ showb()
+comment3.params=x\ y
+comment3.target=int\ changevalues(int,\ int)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

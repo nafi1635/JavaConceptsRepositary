@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=f\ l\ s\ id
+comment0.target=emp(java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.params=
+comment1.target=java.lang.String\ empname()
+comment2.params=
+comment2.target=int\ empsalary()
+comment3.params=
+comment3.target=int\ empid()
+numComments=4

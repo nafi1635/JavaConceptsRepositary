@@ -1,0 +1,51 @@
+/**
+nAfi
+date:22/12/15
+*/
+
+
+Networking:connecting two or more devices (computers together)
+* we can share any resources from one to one.
+* we can centralize software management.
+terminology:
+1)IP Address:unique address which is assigned to node of network  range:0-255
+2)Protocol:set of rules of below
+-->TCP
+-->FTP
+-->Telnet
+-->SMTP
+-->POP etc.
+
+
+3)Port Number
+4)MAC Address
+5)Connection-oriented and connectionless protocol
+6)Socket
+SOCKET PROGRAMMING:
+*communication between the machines. 
+* can be connection or connectionless.
+* Ip address of server
+* port number
+SOCKET CLASS:
+* socket is simply an end point of communication
+METHODS)
+
+1) public InputStream getInputStream()
+2) public OutputStream getOutputStream()
+3) public synchronized void close()
+
+SERVER SOCKET CLASS:
+* it is create a server socket
+* connection with clients
+METHODS)
+1) public Socket accept()
+1) public InputStream getInputStream()
+2) public OutputStream getOutputStream()
+3) public synchronized void close()
+
+
+URL CLASS:
+uniform resourse locator
+
+
+

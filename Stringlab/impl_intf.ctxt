@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=name\ age\ gender
+comment0.target=impl_intf(java.lang.String,\ int,\ char)
+comment1.params=
+comment1.target=java.lang.String\ getname()
+comment2.params=
+comment2.target=int\ getage()
+comment3.params=
+comment3.target=char\ getgender()
+numComments=4

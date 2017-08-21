@@ -1,0 +1,85 @@
+JAVA COLLECTION FRAMEWORK:------
+--Collection Framework provides an architecture to store and manipulate the group of objects.
+--searching,sorting,inserting..something like these easily perforemed my this collection framework.
+--Collection means a single unit of objects. Collection framework provides many interfaces (Set, List,           Queue,Deque etc.) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet etc).
+--Frame work provides readymade architecture.
+Collection framework represents a unified architecture for storing and manipulating group of object.
+It has:
+1.interfaces and its implementations i.e. classes
+2.Algorithm
+--Package ----->java.util.*;this package contains collection classes.
+Serveral methods are in collection class:-
+1.public boolean add(Object element)--->insert an element in this collection.
+2.public boolean addAll(collection c)-->insert the specified collection elements in the invoking collection.
+3.public boolean remove(Object element)-->delete an element from this collection.
+4.public boolean removeAll(Collection c)-->delete all the elements of specified collection from the                     invoking collection.
+5.public boolean retainAll(Collection c)-->delete all the elements of invoking collection except the specified collection.
+6.public int size()-->return the total number of elements in the collection.
+7.public void clear()-->removes the total no of element from the collection.
+8.public boolean contains(object element)-->search an element.
+9.public boolean containsAll(Collection c)-->is used to search the specified collection in this collection.
+10.public Iterator iterator()-->returns an iterator.
+11.public Object[] toArray()-->converts collection into array.
+12.public boolean isEmpty()-->checks if collection is empty.
+13.public boolean equals(Object element)-->matches two collection.
+14.public int hashCode()-->returns the hashcode number for collection
+ITERATOR INTERFACEl:-providing iterating elements in forward direction only.
+                     public boolean hasNext()-->it returns true if iterator has more elements.
+                     public object next()-->it returns the element and moves the cursor pointer to the next element.
+                     public void remove()-->it removes the last elements returned by the iterator. It is rarely used.
+ARRAY LINKED LIST:
+                -->dynamic array for storing the elements.It extends AbstractList class and implements List interface.
+                -->maintains insertion order
+LINKED LIST CLASS:-
+                      -->uses doubly linked list to store the elements. It extends the AbstractList class and implements List and Deque interfaces.  
+                      -->No random access.
+                      -->can be used as list, stack or queue.
+LIST INTERFACE:-
+       --> List Interface is the subinterface of Collection.It contains methods to insert and delete elements in index basis.It is a factory of ListIterator interface.    
+       some xtra methods:
+       public object get(int Index position);
+        public object set(int index,Object element);
+        public object remove(int index);    
+LIST ITERATOR:
+         -->ListIterator Interface is used to traverse the element in backward and forward direction.                      
+                public boolean hasNext();
+                public Object next();
+                public boolean hasPrevious();
+                public Object previous();
+* list can contain duplicate elements.
+*But set doesnt.
+HASH SET:
+        -->uses hashtable to store the elements.It extends AbstractSet class and implements Set interface.
+           -->contains unique elements only.
+                --> doesnt accept duplicate elements.
+LINKED LIST HASH SET:
+        -->contains unique elements only like HashSet. It extends HashSet class and implements Set interface.
+        -->maintains insertion order.     
+TREE SET:
+                -->same like hash set but sorted already in that set.     
+                -->maintains ascending order.
+QUEUE INTERFACE:
+        The Queue interface basically orders the element in FIFO(First In First Out)manner.
+                public boolean add(object);
+                public boolean offer(object);
+                public remove();  -->removes first element
+                public poll();
+                public element();-->gives 1st element
+                public peek();   --->gives 1st element
+         Priority queue means---> ente into the queue by  sored order...alphabetically.       
+                              
+        
+                      
+                                    
+             
+                        
+
+
+
+
+
+
+
+
+
+
